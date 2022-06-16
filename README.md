@@ -19,7 +19,7 @@ Concepts included:
 * API interaction
 * OAuth
 
-### Installation and use
+## Installation and use
 
 Clone repo from https://github.com/ste-lomax/surreal-estate
 
