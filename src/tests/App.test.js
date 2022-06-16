@@ -2,8 +2,8 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import App from "../components/App";
 
-test("renders learn react link", () => {
+it("renders logo", () => {
   render(<App />);
-  const linkElement = screen.getByText(/surreal estate/i);
+  const linkElement = screen.getByTestId("surreal-estate-logo");
   expect(linkElement).toBeInTheDocument();
 });
