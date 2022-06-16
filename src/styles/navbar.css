@@ -1,0 +1,25 @@
+.navbar {
+    background-color: white;
+    border-bottom: 0.25rem solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.surreal-estate-logo {
+    margin: 0;
+    height: 5rem;
+}
+
+.navbar-links {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links-item {
+    margin: 0;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: inline-block;
+}
